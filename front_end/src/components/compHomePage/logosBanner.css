@@ -1,0 +1,25 @@
+.logos-banner {
+    overflow: hidden;
+}
+.logo-banner-inner {
+    animation: moveLeft 6s linear infinite;
+    -webkit-animation: moveLeft 6s linear infinite;
+    gap: 150px;
+    z-index: 22;
+}
+@keyframes moveLeft{
+    0%   {
+        transform:translateX(-555px);
+        -webkit-transform:translateX(-555px);
+        -moz-transform:translateX(-555px);
+        -ms-transform:translateX(-555px);
+        -o-transform:translateX(-555px);
+}
+    100%{
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+        -moz-transform: translateX(0);
+        -ms-transform: translateX(0);
+        -o-transform: translateX(0);
+}
+}

@@ -1,0 +1,64 @@
+.login-content{
+    height: calc(100vh - 80px);
+}
+.login-content > div {
+    width: 50%;
+}
+.login-form{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}    
+.login-img  {
+    height: 100%;
+    position: relative;
+}
+.login-content img{
+    height: 100%;
+    width: 100%;
+}
+
+#email,span.MuiFormControlLabel-label {
+    color: var(--c-gray);
+    font-size: var(--fs_20) !important;
+    font-weight: 600;
+    font-family:'Edu TAS Beginner', cursive;
+}
+#email-label,#password-label {
+    font-size: 12px !important;
+    color: var(--c-gray) !important;
+    font-weight: bold !important;
+}
+
+.login-form a{
+    font-size: var(--fs_16) !important;
+    color: var(--c-gray);
+    font-weight: 600;
+    font-family:'Edu TAS Beginner', cursive;
+    text-decoration:underline !important;
+    text-decoration-color: skyblue !important;
+    -moz-text-decoration-color: skyblue !important;
+}
+.login-form button {
+    background-color: var(--c-black) !important;
+}
+.login-form:hover button{background-color: skyblue !important; }
+@media (max-width:800px) {
+    .login-content > div {
+        width: 100%;
+    }
+    .login-img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+    .login-form >div {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+    }
+}
