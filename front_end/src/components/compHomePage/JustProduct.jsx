@@ -9,7 +9,6 @@ const JustProduct = () => {
   const [animationCount,setAnimationCount]=useState(0)
   const [animation,setAnimation]=useState()
   useEffect(()=>{
-      console.log(carouselRef.current.offsetRight);
       setAnimation(carouselRef.current.offsetWidth)
       setWidth(carouselRef.current.scrollWidth - carouselRef.current.offsetWidth) 
     },[])

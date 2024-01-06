@@ -1,15 +1,19 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { JustProductDB } from './../JustProductDB';
-import { lightGreen } from '@mui/material/colors';
 import {Card, Col, Container, Image, ListGroup, Row} from 'react-bootstrap'
 import { Button } from '@mui/material';
 import { NavLink } from 'react-router-dom';
 import RatingProduct from '../components/rating/Rating';
+import axios from 'axios';
 const ProductPage = () => {
   const {id} = useParams();
-  const product = JustProductDB.find( pro => pro.id === Number(id))
-
+  const [product,setProduct] =useState([])
+  useEffect(()=>{
+    (async function () {
+      const {data} = await axios(`http://localhost:5000/api/products/${id}`);
+      setProduct(data)
+    })()
+  },[])
   return (
     <div className='margin-y'>
       <Container>

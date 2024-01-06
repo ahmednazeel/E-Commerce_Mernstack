@@ -9,7 +9,7 @@ const Avatars = () => {
             <div>
               <Avatar
                   alt=""
-                  src="/IMG/Paste image (3).png"
+                  src="/IMG/product(3).png"
                   sx={{ width: 167, height: 167 }}
               />
               <p className='text-center fs_14 fw-bold c-first'>Puffers</p>
@@ -17,7 +17,7 @@ const Avatars = () => {
             <div>
               <Avatar
                   alt=""
-                  src="/IMG/Paste image (5).png"
+                  src="/IMG/product(5).png"
                   sx={{ width: 167, height: 167 }}
               />
               <p className='text-center fs_14 fw-bold c-first'>Bombers</p>
@@ -25,7 +25,7 @@ const Avatars = () => {
             <div>
               <Avatar
                   alt=""
-                  src="/IMG/Paste image (6).png"
+                  src="/IMG/product(6).png"
                   sx={{ width: 167, height: 167 }}
               />
               <p className='text-center fs_14 fw-bold c-first'>Lightweight jackets</p>
@@ -33,7 +33,7 @@ const Avatars = () => {
             <div>
               <Avatar
                   alt=""
-                  src="/IMG/Paste image (7).png"
+                  src="/IMG/product(7).png"
                   sx={{ width: 167, height: 167 }}
               />
               <p className='text-center fs_14 fw-bold c-first'>Gilets</p>
@@ -41,7 +41,7 @@ const Avatars = () => {
             <div>
               <Avatar
                   alt=""
-                  src="/IMG/Paste image (8).png"
+                  src="/IMG/product(8).png"
                   sx={{ width: 167, height: 167 }}
               />
               <p className='text-center fs_14 fw-bold c-first'>Coats</p>
@@ -49,7 +49,7 @@ const Avatars = () => {
             <div>
               <Avatar
                   alt=""
-                  src="/IMG/Paste image.png"
+                  src="/IMG/product(9).png"
                   sx={{ width: 167, height: 167 }}
               />
               <p className='text-center fs_14 fw-bold c-first'>Rainwear</p>

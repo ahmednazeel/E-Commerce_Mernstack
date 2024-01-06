@@ -6,7 +6,6 @@ import RatingProduct from "./../rating/Rating";
 import { NavLink } from "react-router-dom";
 
 const ProductCard = ({ data, clicking }) => {
-  useEffect(() => console.log(data.id), []);
   return (
     <>
       {clicking ? (

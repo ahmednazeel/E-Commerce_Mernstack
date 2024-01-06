@@ -1,0 +1,38 @@
+{
+  "name": "e-commerce",
+  "version": "1.0.0",
+  "description": "Ecomerce Website",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon back_end/server",
+    "client": "npm start --prefix front_end",
+    "dev": "concurrently \"npm run server\" \"npm run client\" ",
+    "data:import": "node back_end/seedrs",
+    "data:destroy": "node back_end/seedrs -d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmednazeel/E-Commerce_Mernstack.git"
+  },
+  "author": "ahmed nazeel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmednazeel/E-Commerce_Mernstack/issues"
+  },
+  "homepage": "https://github.com/ahmednazeel/E-Commerce_Mernstack#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^8.0.2",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
